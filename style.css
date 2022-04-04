@@ -1,69 +1,97 @@
 /*************
 
-GENERAL
+GENERAL/NAV
 
 ************/
 
-html {
-    text-align: center;
+html, body {
+    background-color: #16db4b;
+}
+
+main h1 {
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 4.6em;
+}
+
+.navbar-dark .navbar-toggler {
+    color: black;
+}
+
+div#navbarNav.navbar-collapse.text-center.collapse.show {
+    margin-top: 10px;
+}
+
+nav ul li a {
+    font-size: 2em;
+}
+
+nav ul li {
+    padding: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+#emailMe button {
+    display: block;
+    width: 100%;
+}
+
+#emailMe button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 125%;
+    padding-left: 5px;
+}
+
+#emailMe button:hover, #emailMe button a:hover {
+    text-decoration: underline;
+}
+
+#emailMe button i {
+    margin: 20px 0; 
 }
 
 
-/*end*/
+/*********** 
+
+ABOUT/FAQ
+
+************/
+
+
 
 
 
 /*********** 
 
-CONTENT
+PROJECTS
 
 ************/
 
-#name {
-    font-family: 'League Gothic', sans-serif;
+
+
+
+
+
+/*********** 
+
+FOOTER
+
+************/
+
+footer {
+    background-color: black;
+    color: #16db4b;
 }
 
-nav ul li {
-    list-style: none;
-    text-decoration: none;
-    margin-bottom: 50px;
-}
 
-#projectslink {
-    text-decoration: none;
-    color: black;
-    font-size: 2em;
-}
-
-#projectslink:hover {
-    text-decoration: underline;
-}
-
-h1 {
-    font-size: 4.6em;
-    margin-bottom: 50px;
-}
-
-#name h2 {
-    margin-bottom: 30px;
-}
-
-#name h2:nth-child(3) {
-    margin-bottom: 80px;
-}
-
-h3 {
-    margin-bottom: 30px;
-}
-
-#contact li .fa-facebook {
-    margin-bottom: 100px;
-}
-
-#contact li {
-    display: inline;
-    padding: 0 25px 0 0;
-}
 
 /*end*/
 
