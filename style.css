@@ -8,20 +8,16 @@ html {
     text-align: center;
 }
 
-.spacing {
-    margin-top: 100px;
-}
-
 
 /*end*/
 
 
 
-/* 
+/*********** 
 
 CONTENT
 
-*/
+************/
 
 #name {
     font-family: 'League Gothic', sans-serif;
