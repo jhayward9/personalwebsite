@@ -86,13 +86,25 @@ FOOTER
 
 ************/
 
-footer {
+#desktopFooter {
     background-color: black;
     color: #16db4b;
+}
+
+#desktopFooter #socialMedia #twitterLink a,
+#desktopFooter #socialMedia #instagramLink a,
+#desktopFooter #socialMedia #linkedInLink a {
+    display: block;
+}
+
+#socialMedia #instagramLink i {
+    color: #8a3ab9;
 }
 
 
 
 /*end*/
+
+
 
 
