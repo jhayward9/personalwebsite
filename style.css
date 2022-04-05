@@ -61,21 +61,15 @@ nav ul li {
 
 /*********** 
 
-ABOUT/FAQ
+ABOUT/PROJECTS
 
 ************/
 
 
 
-
-
-/*********** 
-
-PROJECTS
-
-************/
-
-
+#aboutAndProjects h3 {
+    text-decoration: underline;
+}
 
 
 
@@ -89,12 +83,6 @@ FOOTER
 #desktopFooter {
     background-color: black;
     color: #16db4b;
-}
-
-#desktopFooter #socialMedia #twitterLink a,
-#desktopFooter #socialMedia #instagramLink a,
-#desktopFooter #socialMedia #linkedInLink a {
-    display: block;
 }
 
 #socialMedia #instagramLink i {
